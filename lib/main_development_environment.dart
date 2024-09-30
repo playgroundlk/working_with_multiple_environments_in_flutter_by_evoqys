@@ -5,7 +5,7 @@ import 'environment/environment.dart';
 import 'environment/environment_mode.dart';
 
 void main() {
-  Environment.setup(EnvironmentMode.test);
+  Environment.setup(EnvironmentMode.development);
   runApp(
     const App(),
   );
